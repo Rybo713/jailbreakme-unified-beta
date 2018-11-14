@@ -1,4 +1,4 @@
-# Jailbreak Me 13.37
+# Jailbreak Me Unified Beta
 A webbased jailbreak solution unifying existing jailbreak me solutions and new ones.
 
 Created by Sem Voigtländer
@@ -61,4 +61,4 @@ These modules can be divided into the following stages:
 - Lokihardt (For being able to pwn browsers within a wink)
 - Sem Voigtländer (just a techie)
 - (@wwwtyro) https://github.com/wwwtyro/cryptico
-- Ryan Wong 
+- Ryan Wong
