@@ -34,8 +34,8 @@ module('liblogging'); //for verbosity functionality
 
 //Configures the maximum supported operating system version or safari version
 var MAX_SUPPORT = {
-    os: 12.01,
-    safari: 604.1
+    os: 12.0.1,
+    safari: 606.1.15
 };
 
 //prints out specifications of a detected device
