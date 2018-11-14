@@ -34,8 +34,8 @@ module('liblogging'); //for verbosity functionality
 
 //Configures the maximum supported operating system version or safari version
 var MAX_SUPPORT = {
-    os: 12.0.1,
-    safari: 606.1.15
+    os: 12.01,
+    safari: 605.1.15
 };
 
 //prints out specifications of a detected device
@@ -51,7 +51,7 @@ function print_specifications() {
 //returns whether the exploit supports the client's browser or not
 function supported_browser() {
     var device = current_device();
-    return device.Browser.mobilesafari;
+    return device.Browser.mobilesafari && && (device.Browser.safari_vers <= MAX_SUPPORT.safari);
 }
 
 //returns whether the exploit supports the client's device type
