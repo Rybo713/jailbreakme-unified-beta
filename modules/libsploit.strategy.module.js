@@ -51,7 +51,7 @@ function print_specifications() {
 //returns whether the exploit supports the client's browser or not
 function supported_browser() {
     var device = current_device();
-    return device.Browser.mobilesafari && (device.Browser.safari_vers <= MAX_SUPPORT.safari);
+    return device.Browser.mobilesafari;
 }
 
 //returns whether the exploit supports the client's device type
