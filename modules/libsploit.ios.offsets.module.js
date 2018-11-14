@@ -31,10 +31,12 @@ var Offsets = function Offsets(sw_vers, productname) {
     offsets["iPhone 8+"] = [];
     offsets["iPhone X"] = [];
     offsets["iPhone XS"] = [];
+    offsets["iPhone XS Max"] = [];
     offsets["iPhone XR"] = [];
 
     //iPads
     offsets["iPad Air"] = [];
+    offsets["iPad mini 4"] = [];
 
     //iPad Air
     offsets["iPad Air"][11.31] = {
@@ -281,7 +283,7 @@ var Offsets = function Offsets(sw_vers, productname) {
         modelio_popx8: kOFFUnknown,
         linkcode_gadget: 0x187bf2fb4
     };
-    
+
     offsets["iPhone 6"][11.41] = {
         vtable: kOFFUnknown,
         disableprimitivegigacage: 0x18854aa90,
