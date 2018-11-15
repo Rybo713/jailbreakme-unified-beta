@@ -51,7 +51,7 @@ function print_specifications() {
 //returns whether the exploit supports the client's browser or not
 function supported_browser() {
     var device = current_device();
-    return device.Browser.mobilesafari;
+    return device.Browser.mobilesafari && device.Browser.safari_vers <= MAX_SUPPORT.safari;
 }
 
 //returns whether the exploit supports the client's device type
@@ -63,7 +63,7 @@ function supported_devicetype() {
 //returns whether the exploit supports the client's os version
 function supported_osversion() {
     var device = current_device();
-    return (device.OSVersion <= MAX_SUPPORT.os) && (device.Browser.safari_vers <= MAX_SUPPORT.safari);
+    return (device.OSVersion <= MAX_SUPPORT.os);
 }
 
 //returns whether the exploit needs offsets for the client device
