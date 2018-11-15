@@ -39,6 +39,7 @@ header {
 	top:0;
 	box-shadow: 3px 3px 3px #000;
 }
+
 footer {
 	width: 100%;
 	position: fixed;
@@ -48,12 +49,14 @@ footer {
 	box-shadow: 3px 3px 3px 6px #000;
 	z-index: 100;
 }
+
 main {
 	width: 100%;
 	min-height: 100%;
 	padding-bottom: 50%;
 	position: initial;
 }
+
 main section {
 	padding-top: 25.5%;
 	text-align: left;
@@ -69,10 +72,6 @@ main section p {
 footer section {
 	text-align: center;
 	color: #000;
-}
-
-footer section::before {
-
 }
 
 input[type='range'] {
@@ -161,6 +160,6 @@ input[type='range']::-webkit-slider-thumb {
   padding: 0.5em 1em;
 
   /* make sure colors have enough contrast! */
-  color: ##eff3f6;
-  background-color: #fafbfc;
+  color:#eff3f6;
+  background-color:#fafbfc;
 }

@@ -72,10 +72,6 @@ footer section {
 }
 
 footer section::before {
-
-}
-
-footer section::before {
 	font-style: bold;
 	color:#fff;
 	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
@@ -121,6 +117,6 @@ footer section::after {
   padding: 0.5em 1em;
 
   /* make sure colors have enough contrast! */
-  color: ##eff3f6;
-  background-color: #fafbfc;
+  color:#eff3f6;
+  background-color:#fafbfc;
 }
